@@ -230,13 +230,181 @@
     <div class="dashboard-wrapper">
         <div class="dashboard-ecommerce">
             <div class="container-fluid dashboard-content">
-                <!-- ============================================================== -->
-                <!-- pageheader  -->
-                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- ============================================================== -->
+                        <!-- pageheader  -->
+                        <!-- ============================================================== -->
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="page-header" id="top">
+                                    <h2 class="pageheader-title">Project Create</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ============================================================== -->
+                        <!-- end pageheader  -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- form  -->
+                        <!-- ============================================================== -->
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 
-                <!-- ============================================================== -->
-                <!-- end pageheader  -->
-                <!-- ============================================================== -->
+                                <form>
+                                    <div class="row">
+                                        <div class="form-group col-6">
+                                            <label for="projecttname" class="col-form-label">Project Name</label>
+                                            <input id="projecttname" type="text" class="form-control"
+                                                   placeholder="Project Name">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-6">
+                                            <label for="projectcode" class="col-form-label">Project Code</label>
+                                            <input id="projectcode" type="text" class="form-control"
+                                                   placeholder="Project Code">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-6">
+                                            <label for="assignedmanager">Assigned Manager</label>
+                                            <select name="roleId" id="assignedmanager" class="custom-select" required>
+                                                <option value="none" selected disabled>Select</option>
+                                                <option value="admin">Admin</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-6">
+                                            <label for="password" class="col-form-label">Password</label>
+                                            <input id="password" type="password" class="form-control"
+                                                   placeholder="Password" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-3">
+                                            <label>Project Start Date</label>
+                                            <input type="date" class="form-control" placeholder="DD/MM/YYYY" >
+                                        </div>
+                                        <div class="form-group col-3">
+                                            <label>Project End Date</label>
+                                            <input type="date" class="form-control" placeholder="DD/MM/YYYY">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-6">
+                                            <label>Project Detail</label>
+                                            <textarea placeholder="Write your project details" class="form-control"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-6">
+                                            <button class="btn btn-success float-right" type="submit">Save</button>
+                                        </div>
+                                    </div>
+
+                                </form>
+
+                            </div>
+                        </div>
+                        <!-- ============================================================== -->
+                        <!-- end form  -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- table  -->
+                        <!-- ============================================================== -->
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="page-header" id="bottom">
+                                <h2 class="pageheader-title">User List</h2>
+                            </div>
+
+                            <table class="table table-striped">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Email(username)</th>
+                                    <th scope="col">Gender</th>
+                                    <th scope="col">Phone</th>
+                                    <th scope="col">Role</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th>Craig Jark</th>
+                                    <td>craig@cydeo.com</td>
+                                    <td>Male</td>
+                                    <td>29231345</td>
+                                    <td>Employee</td>
+                                    <td>
+                                        <a href="#">
+                                            <button class="btn btn-warning btn-sm">Update</button>
+                                        </a>
+                                        <a href="#">
+                                            <button class="btn btn-danger btn-sm">Delete</button>
+                                        </a>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Matt Jark</th>
+                                    <td>matt@cydeo.com</td>
+                                    <td>Male</td>
+                                    <td>29231345</td>
+                                    <td>Employee</td>
+                                    <td>
+                                        <a href="#">
+                                            <button class="btn btn-warning btn-sm">Update</button>
+                                        </a>
+                                        <a href="#">
+                                            <button class="btn btn-danger btn-sm">Delete</button>
+                                        </a>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Adam Husrew</th>
+                                    <td>Adam.Husrew@cydeo.com</td>
+                                    <td>Male</td>
+                                    <td>29231345</td>
+                                    <td>Employee</td>
+                                    <td>
+                                        <a href="#">
+                                            <button class="btn btn-warning btn-sm">Update</button>
+                                        </a>
+                                        <a href="#">
+                                            <button class="btn btn-danger btn-sm">Delete</button>
+                                        </a>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Sasha Katerine</th>
+                                    <td>sasha@cydeo.com</td>
+                                    <td>Female</td>
+                                    <td>29231345</td>
+                                    <td>Employee</td>
+                                    <td>
+                                        <a href="#">
+                                            <button class="btn btn-warning btn-sm">Update</button>
+                                        </a>
+                                        <a href="#">
+                                            <button class="btn btn-danger btn-sm">Delete</button>
+                                        </a>
+
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+
+                        </div>
+                        <!-- ============================================================== -->
+                        <!-- end table  -->
+                        <!-- ============================================================== -->
+                    </div>
+                </div>
             </div>
         </div>
         <!-- ============================================================== -->
